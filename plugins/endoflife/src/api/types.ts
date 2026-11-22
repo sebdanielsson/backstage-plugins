@@ -106,6 +106,8 @@ export interface EndOfLifeApi {
  *
  * @public
  */
-export const endOfLifeApiRef: ApiRef<EndOfLifeApi> = createApiRef({
-  id: 'plugin.endoflife.api',
-});
+export const endOfLifeApiRef: ApiRef<EndOfLifeApi> = createApiRef<EndOfLifeApi>(
+  {
+    id: 'plugin.endoflife.api',
+  },
+);
