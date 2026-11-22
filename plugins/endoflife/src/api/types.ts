@@ -1,4 +1,4 @@
-import { createApiRef } from '@backstage/core-plugin-api';
+import { ApiRef, createApiRef } from '@backstage/core-plugin-api';
 
 /**
  * The products extracted from the annotation.
@@ -106,6 +106,6 @@ export interface EndOfLifeApi {
  *
  * @public
  */
-export const endOfLifeApiRef = createApiRef<EndOfLifeApi>({
+export const endOfLifeApiRef: ApiRef<EndOfLifeApi> = createApiRef({
   id: 'plugin.endoflife.api',
 });
