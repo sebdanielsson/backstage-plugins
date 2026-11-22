@@ -4969,20 +4969,28 @@ __metadata:
     "@testing-library/user-event": "npm:^14.0.0"
     "@types/luxon": "npm:^3.4.0"
     "@types/node": "npm:*"
+    "@types/react": "npm:^18"
+    component-emitter: "npm:^1.3.1"
     cross-fetch: "npm:^3.1.5"
     keycharm: "npm:^0.4.0"
     luxon: "npm:^3.4.4"
     moment: "npm:^2.30.1"
     msw: "npm:^1.0.0"
+    propagating-hammerjs: "npm:^2.0.1"
     react-use: "npm:^17.2.4"
+    uuid: "npm:^11.0.0"
     vis-data: "npm:^7.1.9"
     vis-timeline: "npm:^7.7.4"
     vis-util: "npm:^5.0.7"
     xss: "npm:^1.0.15"
   peerDependencies:
+    "@types/react": ^16.13.1 || ^17.0.0 || ^18.0.0
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -5144,13 +5152,18 @@ __metadata:
     "@testing-library/react": "npm:^15.0.0"
     "@testing-library/user-event": "npm:^14.0.0"
     "@types/node": "npm:*"
+    "@types/react": "npm:^18"
     cross-fetch: "npm:^3.1.5"
     msw: "npm:^1.0.0"
     react-use: "npm:^17.2.4"
   peerDependencies:
+    "@types/react": ^16.13.1 || ^17.0.0 || ^18.0.0
     react: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-dom: ^16.13.1 || ^17.0.0 || ^18.0.0
     react-router-dom: 6.0.0-beta.0 || ^6.3.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
   languageName: unknown
   linkType: soft
 
@@ -30981,6 +30994,15 @@ __metadata:
     object-assign: "npm:^4.1.1"
     react-is: "npm:^16.13.1"
   checksum: 10/7d959caec002bc964c86cdc461ec93108b27337dabe6192fb97d69e16a0c799a03462713868b40749bfc1caf5f57ef80ac3e4ffad3effa636ee667582a75e2c0
+  languageName: node
+  linkType: hard
+
+"propagating-hammerjs@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "propagating-hammerjs@npm:2.0.1"
+  peerDependencies:
+    "@egjs/hammerjs": ^2.0.17
+  checksum: 10/f2ca63c81460993eb0a74f5078c39ffd8e34e221e09820df9def91d4433b951fa08be437aaf2ece5d6e6bc0d3bedeebc385ff0563d6b39aba68442cbd46cb2ef
   languageName: node
   linkType: hard
 
